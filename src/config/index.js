@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const dev = {
   app: {
-    serverPort: process.env.SERVER_PORT || 8081,
+    serverPort: process.env.PORT || 8081,
     jwtActivationSecretKey: process.env.JWT_ACTIVATION_KEY,
     clientUrl: process.env.CLIENT_URL,
     smtpUsername: process.env.SMTP_USERNAME,
