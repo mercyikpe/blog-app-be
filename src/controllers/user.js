@@ -60,7 +60,7 @@ const registerUser = async (req, res, next) => {
       subject: "Account Activation",
       html: `
                 <h2>Good Morning ${name}</h2>
-                <p>Please click <a href="${dev.app.clientUrl}/api/users/activate/${token}" target="_blank"> here </a>to activate your account</p>
+                <p>Please click <a href="${dev.app.clientUrl}/activate/${token}" target="_blank"> here </a>to activate your account</p>
                 <p>
                 <b>Mercy Ikpe. <br>
                     <em>FullStack Dev</em>
