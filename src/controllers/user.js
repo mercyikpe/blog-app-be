@@ -228,7 +228,7 @@ const forgetPassword = async (req, res, next) => {
       subject: "Reset Password",
       html: `
                 <h2>Hello ${user.name}</h2>
-                <p>Please click <a href="${dev.app.clientUrl}/api/users/reset-password/${token}" target="_blank"> here </a>to reset your password.</p>
+                <p>Please click <a href="${dev.app.clientUrl}/reset-password/${token}" target="_blank"> here </a>to reset your password.</p>
                 <p>
                 <b>Mercy Ikpe. <br>
                     <em>FullStack Dev</em>
