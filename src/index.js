@@ -43,7 +43,7 @@ app.use("/api/blogs", postRouter);
 
 // handle 404 errors
 app.use((req, res, next) => {
-  next(createError(404, "Route not found, try /api/blogs to see all posts"));
+  next(createError(404, "Route not found, try /api-test to check server,  /api/blogs to see all posts"));
 });
 
 // handle 500 errors
